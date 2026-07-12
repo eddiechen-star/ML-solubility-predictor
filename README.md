@@ -1,4 +1,4 @@
-# ML-solubility-predictor-new
+# ML-solubility-predictor
 
 OLD MODEL (see for more info on the project): 
 
