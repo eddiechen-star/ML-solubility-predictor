@@ -2,7 +2,7 @@
 
 OLD MODEL (see for more info on the project): 
 
-https://github.com/eddiechen-star/ML-solubility-predictor
+https://github.com/eddiechen-star/ML-solubility-predictor-old
 
 # Installation
 
