@@ -35,13 +35,8 @@ To run ML Solubility Predictor, open a new command prompt window, clone the repo
 ```bash
 
 git clone https://github.com/eddiechen-star/ML-solubility-predictor.git
-
 cd ML-solubility-predictor
-
 cd "Molecular Property Predictor"
-
 pip install pandas numpy scikit-learn rdkit requests
-
 py ML-solubility-predictor.py
-
 ```
