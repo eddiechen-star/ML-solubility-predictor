@@ -4,7 +4,7 @@ OLD MODEL (see for more info on the project):
 
 https://github.com/eddiechen-star/ML-solubility-predictor-old
 
-If you have any improvements or find any bugs with the code, please tell me.
+If you find any improvements or any bugs in the code, please tell me.
 
 # Installation
 
