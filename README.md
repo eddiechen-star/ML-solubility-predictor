@@ -33,7 +33,6 @@ OR if you don't want to install Git for windows download the repository as a ZIP
 To run ML Solubility Predictor, open a new command prompt window, clone the repository and install the required libraries:
 
 ```bash
-
 git clone https://github.com/eddiechen-star/ML-solubility-predictor.git
 cd ML-solubility-predictor
 cd "Molecular Property Predictor"
