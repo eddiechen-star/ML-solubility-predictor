@@ -25,6 +25,7 @@ x_train, x_test, y_train, y_test = split(x_features, y)
 # 4. Train model
 model = train(x_train, y_train)
 
+end_time = time.perf_counter()
 print("Model trained!")
 print("Time taken:", (end_time - start_time), "seconds")
 print("Predicting measured log solubility in mols per litre under standard conditions.")
