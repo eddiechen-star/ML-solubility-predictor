@@ -6,6 +6,16 @@ https://github.com/eddiechen-star/ML-solubility-predictor-old
 
 If you find any improvements or any bugs in the code, please tell me.
 
+# Change Log
+
+- Created a "Classifying" file to determine whether a user input is a SMILE or molecule name to fix the bug where "cco" was passing as a molecule name.
+
+- Added a "Featuring" file to bump the R2 score from around a 70 to a 90, the mean absolute error from 60 to 50, and the mean squared error from 70 to 60.
+
+- Fixed a weird bug where the SMILE for amygdalin was returning None by using: from urllib.parse import quote, url = f"https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/smiles/{quote(smile)}/cids/JSON".
+
+- Made the model understand miscibility by adding an if statement to see if the predicted log s is more than or equal to -0.5.
+
 # Installation
 
 ML Solubility Predictor requires:
