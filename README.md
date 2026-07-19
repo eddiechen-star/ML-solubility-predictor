@@ -16,6 +16,8 @@ If you find any improvements or any bugs in the code, please tell me.
 
 - Made the model understand miscibility by adding an if statement to see if the predicted log s is more than or equal to -0.5.
 
+- Changed the miscibility detection by adding a small model inside of featuring called "Miscible".
+
 # Installation
 
 ML Solubility Predictor requires:
